@@ -10,9 +10,9 @@ const Section = ({
 }: {
   className: string;
   id: string;
-  crosses: string;
+  crosses?: string;
   crossesOffset: string;
-  customPaddings: string;
+  customPaddings?: string;
   children: React.ReactNode;
 }) => {
   return (
