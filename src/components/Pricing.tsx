@@ -1,3 +1,4 @@
+'use client';
 import Section from "./Section";
 import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
@@ -7,7 +8,7 @@ import Image from "next/image";
 
 const Pricing = () => {
   return (
-    <Section className="overflow-hidden" id="pricing">
+    <Section className="overflow-hidden" id="pricing" crosses="" crossesOffset="" customPaddings="">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <Image src={smallSphere}
@@ -27,8 +28,10 @@ const Pricing = () => {
         </div>
 
         <Heading
+          className="my-heading-class"
           tag="Get started with Brainwave"
           title="Pay once, use forever"
+          text="Lorem ipsum dolor sit amet"
         />
 
         <div className="relative">

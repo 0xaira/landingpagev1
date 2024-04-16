@@ -17,9 +17,9 @@ const Hero = () => {
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem]"
-      crosses
+      crosses=""
       crossesOffset="lg:translate-y-[5.25rem]"
-      customPaddings
+      customPaddings=""
       id="hero"
     >
       <div className="container relative" ref={parallaxRef}>
@@ -40,7 +40,7 @@ const Hero = () => {
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
           </p>
-          <Button href="/pricing" white>
+          <Button href="/pricing" white className="" onClick={() => {}} px="">
             Get started
           </Button>
         </div>
@@ -89,15 +89,13 @@ const Hero = () => {
             <Image src={heroBackground} className="w-full" width={1440} height={1800} alt="hero" />
           </div>
 
-          <BackgroundCircles />
+          <BackgroundCircles parallaxRef={parallaxRef} />
         </div>
 
         <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
 
       <BottomLine />
-      
-
     </Section>
   );
 };

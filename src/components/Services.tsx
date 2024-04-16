@@ -14,11 +14,19 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section
+      id="how-to-use"
+      className=""
+      crosses=""
+      crossesOffset=""
+      customPaddings=""
+    >
       <div className="container">
         <Heading
+          className=""
           title="Generative AI made for creators."
           text="Brainwave unlocks the potential of AI-powered applications"
+          tag=""
         />
 
         <div className="relative">

@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import { notification1 } from "../assets";
 import { notificationImages } from "../constants";

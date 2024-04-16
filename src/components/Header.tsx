@@ -77,7 +77,7 @@ const Header = () => {
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#login" onClick={undefined} px={undefined} white={undefined}>
+        <Button className="hidden lg:flex" href="#login" onClick={() => {}} white={false} px="">
           Sign in
         </Button>
 
@@ -85,7 +85,7 @@ const Header = () => {
           className="ml-auto lg:hidden"
           px="px-3"
           href="#"
-          white={undefined}
+          white={false}
           onClick={toggleNavigation}
         >
           <MenuSvg openNavigation={openNavigation} />

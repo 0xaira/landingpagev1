@@ -1,3 +1,4 @@
+'use client';
 import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
@@ -31,6 +32,8 @@ const PricingList = () => {
             className="w-full mb-6"
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
             white={!!item.price}
+            onClick={() => {}}
+            px="2rem"
           >
             {item.price ? "Get started" : "Contact us"}
           </Button>
