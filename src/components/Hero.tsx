@@ -54,7 +54,7 @@ const Hero = () => {
                 alt="AI"
               /> */}
                <video autoPlay muted loop>
-                  <source src="../../public/vid.mp4" type="video/mp4" />
+                  <source src="vid.mp4" type="video/mp4" />
                        Your browser does not support the video tag.
                </video>
 
