@@ -11,7 +11,7 @@ import ButtonGradient from "../assets/svg/ButtonGradient";
 export default function page() {
   return (
     <>
-    <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
         <Benefits />
@@ -21,7 +21,7 @@ export default function page() {
         <Roadmap />
         <Footer />
       </div>
-       <ButtonGradient />
-       </>
+      <ButtonGradient />
+    </>
   )
 }
